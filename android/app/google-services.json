@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "791986894491",
+    "project_id": "basedlocation-808bf",
+    "storage_bucket": "basedlocation-808bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791986894491:android:0173625805db35d8d8783e",
+        "android_client_info": {
+          "package_name": "com.example.locasi_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791986894491-4i2sos02pnh75v80j575ahkp96sncccs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1eeThUu_RbOoIdOMBHhVWqopplo3ekGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791986894491-4i2sos02pnh75v80j575ahkp96sncccs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
