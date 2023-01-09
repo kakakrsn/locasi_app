@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
    <application
         android:label="locasi_app"
@@ -45,6 +46,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
             <meta-data android:name="com.google.android.geo.API_KEY"
-           android:value="YOUR_GOOGLE_API_KEY_HERE"/>
+           android:value="AIzaSyCo5JbZg2Dhy0P7S8M33M4MMrTc9klKLg4"/>
     </application>
 </manifest>

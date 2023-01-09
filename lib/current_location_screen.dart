@@ -3,6 +3,8 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:locasi_app/add_item.dart';
+import 'package:locasi_app/enum.dart';
 import 'package:locasi_app/home_screen.dart';
 
 class CurrentLocationScreen extends StatefulWidget {
@@ -23,6 +25,7 @@ class _CurrentLocationScreenState extends State<CurrentLocationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xff141B62),
         title: const Text("User current location"),
         centerTitle: true,
       ),
@@ -47,12 +50,14 @@ class _CurrentLocationScreenState extends State<CurrentLocationScreen> {
           markers.add(Marker(markerId: const MarkerId('currentLocation'),position: LatLng(position.latitude, position.longitude)));
 
           setState(() {});
-          Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => HomeScreen()));
+          
 
         },
         label: const Text("Current Location"),
         icon: const Icon(Icons.location_history),
+      ),
+      bottomNavigationBar: CustomBottomNavbar(
+        selectedMenu: MenuState.loc,
       ),
     );
   }
